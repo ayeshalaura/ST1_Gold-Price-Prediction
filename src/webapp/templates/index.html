@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gold Price Prediction</title>
+</head>
+<body>
+    <h1>Gold Price Prediction</h1>
+    <form method="post">
+        <button type="submit">Predict Adjusted Close</button>
+        <!-- Hidden input to store existing predictions as JSON -->
+        <input type="hidden" name="predictions_json" value='{{ predictions | tojson | safe }}'>
+    </form>
+    
+    {% if predictions %}
+        <h2>Prediction Results</h2>
+        <p>Model Used: {{ model_name }}</p>
+        <ul>
+            {% for prediction, actual in predictions %}
+                <li>Predicted Adjusted Close: {{ prediction }} | Actual Adjusted Close: {{ actual }}</li>
+            {% endfor %}
+        </ul>
+        <h2>Actual vs Predicted Visualization</h2>
+        <img src="{{ url_for('static', filename='visualizations/actual_vs_predicted_' + model_name + '.png') }}" alt="Actual vs Predicted">
+    {% endif %}
+</body>
+</html>

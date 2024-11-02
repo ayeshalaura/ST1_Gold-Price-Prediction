@@ -1,0 +1,316 @@
+2024-11-02 14:07:30,627 - INFO - === Starting Gold Price Prediction Data Pipeline ===
+2024-11-02 14:07:31,054 - INFO - Dataset loaded successfully.
+2024-11-02 14:07:31,125 - INFO - New date-based features added: year, month, weekday
+2024-11-02 14:07:31,698 - INFO - Adjusted Close distribution plot created successfully.
+2024-11-02 14:07:32,024 - INFO - Adjusted Close over time plot created successfully.
+2024-11-02 14:07:38,040 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:38,046 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:39,078 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:39,085 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:40,037 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:40,048 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:41,315 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:41,321 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:42,447 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:42,455 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:43,265 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:43,270 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:44,170 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:44,175 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:45,538 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:45,545 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:47,953 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:47,960 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:48,208 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:48,214 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:48,376 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:48,382 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-11-02 14:07:48,492 - INFO - Column distributions plots created successfully.
+2024-11-02 14:07:49,727 - INFO - Correlation matrix heatmap created successfully.
+2024-11-02 14:07:50,552 - INFO - Adjusted Close decomposition plot created successfully.
+2024-11-02 14:07:50,578 - INFO - Duplicate rows removed: 0; Duplicate rows remaining: 0
+2024-11-02 14:07:50,584 - INFO - Missing values imputed: 0; Missing values remaining: 0
+2024-11-02 14:07:50,617 - INFO - Series 'Open' is non-stationary (p-value=0.3577).
+2024-11-02 14:07:50,618 - INFO - Applied log transformation to 'Open'.
+2024-11-02 14:07:50,645 - INFO - Series 'Open' is non-stationary (p-value=0.3355).
+2024-11-02 14:07:50,646 - INFO - Applied differencing to 'Open'.
+2024-11-02 14:07:50,675 - INFO - Series 'High' is non-stationary (p-value=0.3830).
+2024-11-02 14:07:50,675 - INFO - Applied log transformation to 'High'.
+2024-11-02 14:07:50,704 - INFO - Series 'High' is non-stationary (p-value=0.3572).
+2024-11-02 14:07:50,704 - INFO - Applied differencing to 'High'.
+2024-11-02 14:07:50,733 - INFO - Series 'Low' is non-stationary (p-value=0.3454).
+2024-11-02 14:07:50,734 - INFO - Applied log transformation to 'Low'.
+2024-11-02 14:07:50,761 - INFO - Series 'Low' is non-stationary (p-value=0.3215).
+2024-11-02 14:07:50,762 - INFO - Applied differencing to 'Low'.
+2024-11-02 14:07:50,790 - INFO - Series 'Close' is non-stationary (p-value=0.3331).
+2024-11-02 14:07:50,791 - INFO - Applied log transformation to 'Close'.
+2024-11-02 14:07:50,817 - INFO - Series 'Close' is non-stationary (p-value=0.3188).
+2024-11-02 14:07:50,818 - INFO - Applied differencing to 'Close'.
+2024-11-02 14:07:50,851 - INFO - Series 'Volume' is stationary (p-value=0.0000).
+2024-11-02 14:07:50,880 - INFO - Series 'SP_open' is non-stationary (p-value=0.5658).
+2024-11-02 14:07:50,881 - INFO - Applied log transformation to 'SP_open'.
+2024-11-02 14:07:50,908 - INFO - Series 'SP_open' is non-stationary (p-value=0.3210).
+2024-11-02 14:07:50,908 - INFO - Applied differencing to 'SP_open'.
+2024-11-02 14:07:50,937 - INFO - Series 'SP_high' is non-stationary (p-value=0.5342).
+2024-11-02 14:07:50,938 - INFO - Applied log transformation to 'SP_high'.
+2024-11-02 14:07:50,965 - INFO - Series 'SP_high' is non-stationary (p-value=0.3119).
+2024-11-02 14:07:50,966 - INFO - Applied differencing to 'SP_high'.
+2024-11-02 14:07:50,998 - INFO - Series 'SP_low' is non-stationary (p-value=0.5763).
+2024-11-02 14:07:50,999 - INFO - Applied log transformation to 'SP_low'.
+2024-11-02 14:07:51,027 - INFO - Series 'SP_low' is non-stationary (p-value=0.3587).
+2024-11-02 14:07:51,027 - INFO - Applied differencing to 'SP_low'.
+2024-11-02 14:07:51,057 - INFO - Series 'SP_close' is non-stationary (p-value=0.5845).
+2024-11-02 14:07:51,057 - INFO - Applied log transformation to 'SP_close'.
+2024-11-02 14:07:51,085 - INFO - Series 'SP_close' is non-stationary (p-value=0.3546).
+2024-11-02 14:07:51,086 - INFO - Applied differencing to 'SP_close'.
+2024-11-02 14:07:51,120 - INFO - Series 'SP_Ajclose' is non-stationary (p-value=0.7031).
+2024-11-02 14:07:51,120 - INFO - Applied log transformation to 'SP_Ajclose'.
+2024-11-02 14:07:51,151 - INFO - Series 'SP_Ajclose' is non-stationary (p-value=0.3619).
+2024-11-02 14:07:51,151 - INFO - Applied differencing to 'SP_Ajclose'.
+2024-11-02 14:07:51,180 - INFO - Series 'SP_volume' is stationary (p-value=0.0000).
+2024-11-02 14:07:51,209 - INFO - Series 'DJ_open' is non-stationary (p-value=0.8153).
+2024-11-02 14:07:51,210 - INFO - Applied log transformation to 'DJ_open'.
+2024-11-02 14:07:51,237 - INFO - Series 'DJ_open' is non-stationary (p-value=0.6595).
+2024-11-02 14:07:51,238 - INFO - Applied differencing to 'DJ_open'.
+2024-11-02 14:07:51,268 - INFO - Series 'DJ_high' is non-stationary (p-value=0.8201).
+2024-11-02 14:07:51,269 - INFO - Applied log transformation to 'DJ_high'.
+2024-11-02 14:07:51,295 - INFO - Series 'DJ_high' is non-stationary (p-value=0.6819).
+2024-11-02 14:07:51,295 - INFO - Applied differencing to 'DJ_high'.
+2024-11-02 14:07:51,326 - INFO - Series 'DJ_low' is non-stationary (p-value=0.8206).
+2024-11-02 14:07:51,326 - INFO - Applied log transformation to 'DJ_low'.
+2024-11-02 14:07:51,356 - INFO - Series 'DJ_low' is non-stationary (p-value=0.6630).
+2024-11-02 14:07:51,357 - INFO - Applied differencing to 'DJ_low'.
+2024-11-02 14:07:51,387 - INFO - Series 'DJ_close' is non-stationary (p-value=0.8240).
+2024-11-02 14:07:51,388 - INFO - Applied log transformation to 'DJ_close'.
+2024-11-02 14:07:51,414 - INFO - Series 'DJ_close' is non-stationary (p-value=0.6660).
+2024-11-02 14:07:51,415 - INFO - Applied differencing to 'DJ_close'.
+2024-11-02 14:07:51,446 - INFO - Series 'DJ_Ajclose' is non-stationary (p-value=0.8173).
+2024-11-02 14:07:51,446 - INFO - Applied log transformation to 'DJ_Ajclose'.
+2024-11-02 14:07:51,472 - INFO - Series 'DJ_Ajclose' is non-stationary (p-value=0.6644).
+2024-11-02 14:07:51,473 - INFO - Applied differencing to 'DJ_Ajclose'.
+2024-11-02 14:07:51,503 - INFO - Series 'DJ_volume' is non-stationary (p-value=0.8013).
+2024-11-02 14:07:51,504 - INFO - Applied log transformation to 'DJ_volume'.
+2024-11-02 14:07:51,533 - INFO - Series 'DJ_volume' is non-stationary (p-value=0.7845).
+2024-11-02 14:07:51,533 - INFO - Applied differencing to 'DJ_volume'.
+2024-11-02 14:07:51,562 - INFO - Series 'EG_open' is non-stationary (p-value=0.2422).
+2024-11-02 14:07:51,563 - INFO - Applied log transformation to 'EG_open'.
+2024-11-02 14:07:51,590 - INFO - Series 'EG_open' is non-stationary (p-value=0.9653).
+2024-11-02 14:07:51,590 - INFO - Applied differencing to 'EG_open'.
+2024-11-02 14:07:51,618 - INFO - Series 'EG_high' is non-stationary (p-value=0.4304).
+2024-11-02 14:07:51,619 - INFO - Applied log transformation to 'EG_high'.
+2024-11-02 14:07:51,646 - INFO - Series 'EG_high' is non-stationary (p-value=0.9625).
+2024-11-02 14:07:51,646 - INFO - Applied differencing to 'EG_high'.
+2024-11-02 14:07:51,675 - INFO - Series 'EG_low' is non-stationary (p-value=0.3609).
+2024-11-02 14:07:51,675 - INFO - Applied log transformation to 'EG_low'.
+2024-11-02 14:07:51,702 - INFO - Series 'EG_low' is non-stationary (p-value=0.9617).
+2024-11-02 14:07:51,702 - INFO - Applied differencing to 'EG_low'.
+2024-11-02 14:07:51,731 - INFO - Series 'EG_close' is non-stationary (p-value=0.3774).
+2024-11-02 14:07:51,732 - INFO - Applied log transformation to 'EG_close'.
+2024-11-02 14:07:51,760 - INFO - Series 'EG_close' is non-stationary (p-value=0.9632).
+2024-11-02 14:07:51,760 - INFO - Applied differencing to 'EG_close'.
+2024-11-02 14:07:51,790 - INFO - Series 'EG_Ajclose' is non-stationary (p-value=0.4122).
+2024-11-02 14:07:51,791 - INFO - Applied log transformation to 'EG_Ajclose'.
+2024-11-02 14:07:51,820 - INFO - Series 'EG_Ajclose' is non-stationary (p-value=0.9638).
+2024-11-02 14:07:51,820 - INFO - Applied differencing to 'EG_Ajclose'.
+2024-11-02 14:07:51,855 - INFO - Series 'EG_volume' is stationary (p-value=0.0003).
+2024-11-02 14:07:51,882 - INFO - Series 'EU_Price' is non-stationary (p-value=0.6282).
+2024-11-02 14:07:51,883 - INFO - Applied log transformation to 'EU_Price'.
+2024-11-02 14:07:51,910 - INFO - Series 'EU_Price' is non-stationary (p-value=0.6072).
+2024-11-02 14:07:51,910 - INFO - Applied differencing to 'EU_Price'.
+2024-11-02 14:07:51,937 - INFO - Series 'EU_open' is non-stationary (p-value=0.6367).
+2024-11-02 14:07:51,938 - INFO - Applied log transformation to 'EU_open'.
+2024-11-02 14:07:51,964 - INFO - Series 'EU_open' is non-stationary (p-value=0.6170).
+2024-11-02 14:07:51,965 - INFO - Applied differencing to 'EU_open'.
+2024-11-02 14:07:51,994 - INFO - Series 'EU_high' is non-stationary (p-value=0.6041).
+2024-11-02 14:07:51,994 - INFO - Applied log transformation to 'EU_high'.
+2024-11-02 14:07:52,022 - INFO - Series 'EU_high' is non-stationary (p-value=0.5849).
+2024-11-02 14:07:52,022 - INFO - Applied differencing to 'EU_high'.
+2024-11-02 14:07:52,049 - INFO - Series 'EU_low' is non-stationary (p-value=0.5599).
+2024-11-02 14:07:52,050 - INFO - Applied log transformation to 'EU_low'.
+2024-11-02 14:07:52,076 - INFO - Series 'EU_low' is non-stationary (p-value=0.5426).
+2024-11-02 14:07:52,077 - INFO - Applied differencing to 'EU_low'.
+2024-11-02 14:07:52,105 - INFO - Series 'OF_Price' is non-stationary (p-value=0.6701).
+2024-11-02 14:07:52,106 - INFO - Applied log transformation to 'OF_Price'.
+2024-11-02 14:07:52,139 - INFO - Series 'OF_Price' is non-stationary (p-value=0.6048).
+2024-11-02 14:07:52,139 - INFO - Applied differencing to 'OF_Price'.
+2024-11-02 14:07:52,168 - INFO - Series 'OF_Open' is non-stationary (p-value=0.6796).
+2024-11-02 14:07:52,169 - INFO - Applied log transformation to 'OF_Open'.
+2024-11-02 14:07:52,197 - INFO - Series 'OF_Open' is non-stationary (p-value=0.5239).
+2024-11-02 14:07:52,198 - INFO - Applied differencing to 'OF_Open'.
+2024-11-02 14:07:52,227 - INFO - Series 'OF_High' is non-stationary (p-value=0.6052).
+2024-11-02 14:07:52,227 - INFO - Applied log transformation to 'OF_High'.
+2024-11-02 14:07:52,253 - INFO - Series 'OF_High' is non-stationary (p-value=0.6576).
+2024-11-02 14:07:52,254 - INFO - Applied differencing to 'OF_High'.
+2024-11-02 14:07:52,284 - INFO - Series 'OF_Low' is non-stationary (p-value=0.6600).
+2024-11-02 14:07:52,284 - INFO - Applied log transformation to 'OF_Low'.
+2024-11-02 14:07:52,311 - INFO - Series 'OF_Low' is non-stationary (p-value=0.6198).
+2024-11-02 14:07:52,311 - INFO - Applied differencing to 'OF_Low'.
+2024-11-02 14:07:52,340 - INFO - Series 'OF_Volume' is stationary (p-value=0.0135).
+2024-11-02 14:07:52,367 - INFO - Series 'OS_Price' is non-stationary (p-value=0.7162).
+2024-11-02 14:07:52,368 - INFO - Applied log transformation to 'OS_Price'.
+2024-11-02 14:07:52,393 - INFO - Series 'OS_Price' is non-stationary (p-value=0.6806).
+2024-11-02 14:07:52,394 - INFO - Applied differencing to 'OS_Price'.
+2024-11-02 14:07:52,422 - INFO - Series 'OS_Open' is non-stationary (p-value=0.7161).
+2024-11-02 14:07:52,423 - INFO - Applied log transformation to 'OS_Open'.
+2024-11-02 14:07:52,451 - INFO - Series 'OS_Open' is non-stationary (p-value=0.6745).
+2024-11-02 14:07:52,451 - INFO - Applied differencing to 'OS_Open'.
+2024-11-02 14:07:52,479 - INFO - Series 'OS_High' is non-stationary (p-value=0.7171).
+2024-11-02 14:07:52,480 - INFO - Applied log transformation to 'OS_High'.
+2024-11-02 14:07:52,506 - INFO - Series 'OS_High' is non-stationary (p-value=0.6716).
+2024-11-02 14:07:52,506 - INFO - Applied differencing to 'OS_High'.
+2024-11-02 14:07:52,534 - INFO - Series 'OS_Low' is non-stationary (p-value=0.7022).
+2024-11-02 14:07:52,535 - INFO - Applied log transformation to 'OS_Low'.
+2024-11-02 14:07:52,562 - INFO - Series 'OS_Low' is non-stationary (p-value=0.6550).
+2024-11-02 14:07:52,562 - INFO - Applied differencing to 'OS_Low'.
+2024-11-02 14:07:52,593 - INFO - Series 'SF_Price' is non-stationary (p-value=0.2363).
+2024-11-02 14:07:52,594 - INFO - Applied log transformation to 'SF_Price'.
+2024-11-02 14:07:52,621 - INFO - Series 'SF_Price' is non-stationary (p-value=0.2149).
+2024-11-02 14:07:52,622 - INFO - Applied differencing to 'SF_Price'.
+2024-11-02 14:07:52,650 - INFO - Series 'SF_Open' is non-stationary (p-value=0.1855).
+2024-11-02 14:07:52,651 - INFO - Applied log transformation to 'SF_Open'.
+2024-11-02 14:07:52,677 - INFO - Series 'SF_Open' is non-stationary (p-value=0.2548).
+2024-11-02 14:07:52,677 - INFO - Applied differencing to 'SF_Open'.
+2024-11-02 14:07:52,706 - INFO - Series 'SF_High' is non-stationary (p-value=0.1196).
+2024-11-02 14:07:52,707 - INFO - Applied log transformation to 'SF_High'.
+2024-11-02 14:07:52,736 - INFO - Series 'SF_High' is non-stationary (p-value=0.1394).
+2024-11-02 14:07:52,736 - INFO - Applied differencing to 'SF_High'.
+2024-11-02 14:07:52,766 - INFO - Series 'SF_Low' is non-stationary (p-value=0.2153).
+2024-11-02 14:07:52,767 - INFO - Applied log transformation to 'SF_Low'.
+2024-11-02 14:07:52,797 - INFO - Series 'SF_Low' is non-stationary (p-value=0.2023).
+2024-11-02 14:07:52,797 - INFO - Applied differencing to 'SF_Low'.
+2024-11-02 14:07:52,830 - INFO - Series 'SF_Volume' is non-stationary (p-value=0.1221).
+2024-11-02 14:07:52,831 - INFO - Applied log transformation to 'SF_Volume'.
+2024-11-02 14:07:52,857 - INFO - Series 'SF_Volume' is stationary (p-value=0.0000).
+2024-11-02 14:07:52,883 - INFO - Series 'USB_Price' is non-stationary (p-value=0.3133).
+2024-11-02 14:07:52,884 - INFO - Applied log transformation to 'USB_Price'.
+2024-11-02 14:07:52,910 - INFO - Series 'USB_Price' is non-stationary (p-value=0.2706).
+2024-11-02 14:07:52,910 - INFO - Applied differencing to 'USB_Price'.
+2024-11-02 14:07:52,996 - INFO - Series 'USB_Open' is non-stationary (p-value=0.3241).
+2024-11-02 14:07:52,997 - INFO - Applied log transformation to 'USB_Open'.
+2024-11-02 14:07:53,023 - INFO - Series 'USB_Open' is non-stationary (p-value=0.2780).
+2024-11-02 14:07:53,023 - INFO - Applied differencing to 'USB_Open'.
+2024-11-02 14:07:53,051 - INFO - Series 'USB_High' is non-stationary (p-value=0.3148).
+2024-11-02 14:07:53,052 - INFO - Applied log transformation to 'USB_High'.
+2024-11-02 14:07:53,078 - INFO - Series 'USB_High' is non-stationary (p-value=0.3388).
+2024-11-02 14:07:53,078 - INFO - Applied differencing to 'USB_High'.
+2024-11-02 14:07:53,107 - INFO - Series 'USB_Low' is non-stationary (p-value=0.3094).
+2024-11-02 14:07:53,107 - INFO - Applied log transformation to 'USB_Low'.
+2024-11-02 14:07:53,135 - INFO - Series 'USB_Low' is non-stationary (p-value=0.2574).
+2024-11-02 14:07:53,135 - INFO - Applied differencing to 'USB_Low'.
+2024-11-02 14:07:53,166 - INFO - Series 'PLT_Price' is non-stationary (p-value=0.6423).
+2024-11-02 14:07:53,166 - INFO - Applied log transformation to 'PLT_Price'.
+2024-11-02 14:07:53,194 - INFO - Series 'PLT_Price' is non-stationary (p-value=0.7398).
+2024-11-02 14:07:53,194 - INFO - Applied differencing to 'PLT_Price'.
+2024-11-02 14:07:53,225 - INFO - Series 'PLT_Open' is non-stationary (p-value=0.5398).
+2024-11-02 14:07:53,226 - INFO - Applied log transformation to 'PLT_Open'.
+2024-11-02 14:07:53,254 - INFO - Series 'PLT_Open' is non-stationary (p-value=0.7470).
+2024-11-02 14:07:53,254 - INFO - Applied differencing to 'PLT_Open'.
+2024-11-02 14:07:53,283 - INFO - Series 'PLT_High' is non-stationary (p-value=0.6058).
+2024-11-02 14:07:53,284 - INFO - Applied log transformation to 'PLT_High'.
+2024-11-02 14:07:53,310 - INFO - Series 'PLT_High' is non-stationary (p-value=0.7037).
+2024-11-02 14:07:53,310 - INFO - Applied differencing to 'PLT_High'.
+2024-11-02 14:07:53,339 - INFO - Series 'PLT_Low' is non-stationary (p-value=0.5038).
+2024-11-02 14:07:53,340 - INFO - Applied log transformation to 'PLT_Low'.
+2024-11-02 14:07:53,366 - INFO - Series 'PLT_Low' is non-stationary (p-value=0.6472).
+2024-11-02 14:07:53,367 - INFO - Applied differencing to 'PLT_Low'.
+2024-11-02 14:07:53,395 - INFO - Series 'PLD_Price' is non-stationary (p-value=0.9067).
+2024-11-02 14:07:53,396 - INFO - Applied log transformation to 'PLD_Price'.
+2024-11-02 14:07:53,420 - INFO - Series 'PLD_Price' is non-stationary (p-value=0.7928).
+2024-11-02 14:07:53,420 - INFO - Applied differencing to 'PLD_Price'.
+2024-11-02 14:07:53,449 - INFO - Series 'PLD_Open' is non-stationary (p-value=0.9025).
+2024-11-02 14:07:53,450 - INFO - Applied log transformation to 'PLD_Open'.
+2024-11-02 14:07:53,476 - INFO - Series 'PLD_Open' is non-stationary (p-value=0.7887).
+2024-11-02 14:07:53,476 - INFO - Applied differencing to 'PLD_Open'.
+2024-11-02 14:07:53,505 - INFO - Series 'PLD_High' is non-stationary (p-value=0.9052).
+2024-11-02 14:07:53,506 - INFO - Applied log transformation to 'PLD_High'.
+2024-11-02 14:07:53,532 - INFO - Series 'PLD_High' is non-stationary (p-value=0.7946).
+2024-11-02 14:07:53,533 - INFO - Applied differencing to 'PLD_High'.
+2024-11-02 14:07:53,562 - INFO - Series 'PLD_Low' is non-stationary (p-value=0.9056).
+2024-11-02 14:07:53,562 - INFO - Applied log transformation to 'PLD_Low'.
+2024-11-02 14:07:53,589 - INFO - Series 'PLD_Low' is non-stationary (p-value=0.7544).
+2024-11-02 14:07:53,590 - INFO - Applied differencing to 'PLD_Low'.
+2024-11-02 14:07:53,620 - INFO - Series 'RHO_PRICE' is non-stationary (p-value=0.9702).
+2024-11-02 14:07:53,620 - INFO - Skipping log transformation for 'RHO_PRICE' due to non-positive values.
+2024-11-02 14:07:53,648 - INFO - Series 'RHO_PRICE' is non-stationary (p-value=0.9702).
+2024-11-02 14:07:53,648 - INFO - Applied differencing to 'RHO_PRICE'.
+2024-11-02 14:07:53,677 - INFO - Series 'USDI_Price' is non-stationary (p-value=0.5301).
+2024-11-02 14:07:53,677 - INFO - Applied log transformation to 'USDI_Price'.
+2024-11-02 14:07:53,705 - INFO - Series 'USDI_Price' is non-stationary (p-value=0.5283).
+2024-11-02 14:07:53,705 - INFO - Applied differencing to 'USDI_Price'.
+2024-11-02 14:07:53,734 - INFO - Series 'USDI_Open' is non-stationary (p-value=0.5449).
+2024-11-02 14:07:53,734 - INFO - Applied log transformation to 'USDI_Open'.
+2024-11-02 14:07:53,761 - INFO - Series 'USDI_Open' is non-stationary (p-value=0.5425).
+2024-11-02 14:07:53,762 - INFO - Applied differencing to 'USDI_Open'.
+2024-11-02 14:07:53,791 - INFO - Series 'USDI_High' is non-stationary (p-value=0.5896).
+2024-11-02 14:07:53,791 - INFO - Applied log transformation to 'USDI_High'.
+2024-11-02 14:07:53,818 - INFO - Series 'USDI_High' is non-stationary (p-value=0.5921).
+2024-11-02 14:07:53,818 - INFO - Applied differencing to 'USDI_High'.
+2024-11-02 14:07:53,849 - INFO - Series 'USDI_Low' is non-stationary (p-value=0.6019).
+2024-11-02 14:07:53,850 - INFO - Applied log transformation to 'USDI_Low'.
+2024-11-02 14:07:53,878 - INFO - Series 'USDI_Low' is non-stationary (p-value=0.6042).
+2024-11-02 14:07:53,879 - INFO - Applied differencing to 'USDI_Low'.
+2024-11-02 14:07:53,909 - INFO - Series 'USDI_Volume' is stationary (p-value=0.0068).
+2024-11-02 14:07:53,936 - INFO - Series 'GDX_Open' is non-stationary (p-value=0.0506).
+2024-11-02 14:07:53,937 - INFO - Applied log transformation to 'GDX_Open'.
+2024-11-02 14:07:53,965 - INFO - Series 'GDX_Open' is non-stationary (p-value=0.1631).
+2024-11-02 14:07:53,966 - INFO - Applied differencing to 'GDX_Open'.
+2024-11-02 14:07:53,998 - INFO - Series 'GDX_High' is stationary (p-value=0.0456).
+2024-11-02 14:07:54,024 - INFO - Series 'GDX_Low' is stationary (p-value=0.0478).
+2024-11-02 14:07:54,051 - INFO - Series 'GDX_Close' is stationary (p-value=0.0484).
+2024-11-02 14:07:54,077 - INFO - Series 'GDX_Adj Close' is stationary (p-value=0.0498).
+2024-11-02 14:07:54,105 - INFO - Series 'GDX_Volume' is non-stationary (p-value=0.0508).
+2024-11-02 14:07:54,105 - INFO - Applied log transformation to 'GDX_Volume'.
+2024-11-02 14:07:54,132 - INFO - Series 'GDX_Volume' is non-stationary (p-value=0.0532).
+2024-11-02 14:07:54,132 - INFO - Applied differencing to 'GDX_Volume'.
+2024-11-02 14:07:54,161 - INFO - Series 'USO_Open' is non-stationary (p-value=0.6127).
+2024-11-02 14:07:54,162 - INFO - Applied log transformation to 'USO_Open'.
+2024-11-02 14:07:54,189 - INFO - Series 'USO_Open' is non-stationary (p-value=0.7812).
+2024-11-02 14:07:54,189 - INFO - Applied differencing to 'USO_Open'.
+2024-11-02 14:07:54,217 - INFO - Series 'USO_High' is non-stationary (p-value=0.6073).
+2024-11-02 14:07:54,218 - INFO - Applied log transformation to 'USO_High'.
+2024-11-02 14:07:54,244 - INFO - Series 'USO_High' is non-stationary (p-value=0.7869).
+2024-11-02 14:07:54,244 - INFO - Applied differencing to 'USO_High'.
+2024-11-02 14:07:54,274 - INFO - Series 'USO_Low' is non-stationary (p-value=0.6458).
+2024-11-02 14:07:54,275 - INFO - Applied log transformation to 'USO_Low'.
+2024-11-02 14:07:54,301 - INFO - Series 'USO_Low' is non-stationary (p-value=0.7785).
+2024-11-02 14:07:54,301 - INFO - Applied differencing to 'USO_Low'.
+2024-11-02 14:07:54,330 - INFO - Series 'USO_Close' is non-stationary (p-value=0.6274).
+2024-11-02 14:07:54,330 - INFO - Applied log transformation to 'USO_Close'.
+2024-11-02 14:07:54,357 - INFO - Series 'USO_Close' is non-stationary (p-value=0.7810).
+2024-11-02 14:07:54,358 - INFO - Applied differencing to 'USO_Close'.
+2024-11-02 14:07:54,387 - INFO - Series 'USO_Adj Close' is non-stationary (p-value=0.5852).
+2024-11-02 14:07:54,387 - INFO - Applied log transformation to 'USO_Adj Close'.
+2024-11-02 14:07:54,415 - INFO - Series 'USO_Adj Close' is non-stationary (p-value=0.7687).
+2024-11-02 14:07:54,415 - INFO - Applied differencing to 'USO_Adj Close'.
+2024-11-02 14:07:54,444 - INFO - Series 'USO_Volume' is non-stationary (p-value=0.0546).
+2024-11-02 14:07:54,444 - INFO - Applied log transformation to 'USO_Volume'.
+2024-11-02 14:07:54,473 - INFO - Series 'USO_Volume' is non-stationary (p-value=0.5687).
+2024-11-02 14:07:54,473 - INFO - Applied differencing to 'USO_Volume'.
+2024-11-02 14:07:54,476 - INFO - Stationarity ensured.
+2024-11-02 14:07:55,504 - INFO - Removed feature 'GDX_Close' with VIF=37130.89.
+2024-11-02 14:07:56,326 - INFO - Removed feature 'EG_close' with VIF=18671.79.
+2024-11-02 14:07:57,177 - INFO - Removed feature 'GDX_Low' with VIF=14241.25.
+2024-11-02 14:07:57,973 - INFO - Removed feature 'GDX_Adj Close' with VIF=6674.15.
+2024-11-02 14:07:58,786 - INFO - Feature 'Adj Close' is excluded from removal despite high VIF.
+2024-11-02 14:07:58,786 - INFO - Number of multicollinear features removed: 6
+2024-11-02 14:07:59,624 - INFO - Lagged features created: 222
+2024-11-02 14:07:59,633 - INFO - Categorical variables encoded successfully.
+2024-11-02 14:07:59,752 - INFO - Last 100 rows of the dataset saved for demo purposes.
+2024-11-02 14:07:59,752 - INFO - Last 100 rows removed from the dataset after saving.
+2024-11-02 14:07:59,759 - INFO - Data splitting completed successfully.
+2024-11-02 14:07:59,793 - INFO - Data standardization completed successfully.
+2024-11-02 14:08:26,945 - INFO - Advanced models trained and saved successfully.
+2024-11-02 14:12:06,682 - INFO - Hyperparameter tuning completed and models saved successfully.
+2024-11-02 14:12:07,072 - INFO - Model evaluation completed and metrics saved successfully.
+2024-11-02 14:12:07,498 - INFO - Model comparison visualization created successfully.
+2024-11-02 14:12:08,960 - INFO - Actual vs Predicted visualizations created successfully.
+2024-11-02 14:12:08,961 - INFO - === Retraining the Best Model on Entire Dataset ===
+2024-11-02 14:12:08,966 - INFO - Best model selected: random_forest
+2024-11-02 14:12:09,013 - INFO - Loaded tuned model from models\tuned\random_forest_tuned.joblib
+2024-11-02 14:12:09,019 - INFO - Loaded scaler from models\scaler.joblib
+2024-11-02 14:12:09,044 - INFO - Features scaled using the loaded scaler.
+2024-11-02 14:12:31,232 - INFO - Best model 'random_forest' retrained on entire dataset.
+2024-11-02 14:12:31,266 - INFO - Retrained model saved to models\deployed\random_forest_deployed.joblib
+2024-11-02 14:12:31,267 - INFO - === Retraining and Serialization Completed ===
+2024-11-02 14:12:31,269 - INFO - Retraining and serialization of the best model completed successfully.
+2024-11-02 14:12:31,269 - INFO - === Data Pipeline Completed Successfully ===
